@@ -73,6 +73,9 @@ What's New?
 in development
 ^^^^^^^^^^^^^^
 
+pydoctor 24.11.0
+^^^^^^^^^^^^^^^^
+
 * Drop Python 3.7 and support Python 3.13.
 * Implement canonical HTML element (``<link rel="canonical" href="..."/>``) to help search engines reduce outdated content. 
   Enable this feature by passing the base URL of the API documentation with option ``--html-base-url``.
