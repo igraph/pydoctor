@@ -1140,7 +1140,7 @@ def get_constructors_extra(cls:model.Class) -> ParsedDocstring | None:
     if not constructors:
         return None
     
-    document = new_document('constructors')
+    document = new_document('docstring')
 
     elements: list[nodes.Node] = []
     plural = 's' if len(constructors)>1 else ''

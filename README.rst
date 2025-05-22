@@ -73,6 +73,9 @@ What's New?
 in development
 ^^^^^^^^^^^^^^
 
+* Fix bug that would result in duplicated "Cannot find link target" warnings when the 
+  types under a docstring *Attributes* section failed to resolved.
+
 pydoctor 25.4.0
 ^^^^^^^^^^^^^^^
 
