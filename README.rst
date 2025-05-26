@@ -75,6 +75,9 @@ in development
 
 * Fix bug that would result in duplicated "Cannot find link target" warnings when the 
   types under a docstring *Attributes* section failed to resolved.
+* Introduce --intersphinx-file option: Use local Sphinx objects inventory file to generate 
+  links to external documentation. If the optional base URL is provided, the links will be 
+  made relative to this base URL. Can be repeated. Format is *PATH_TO_OBJECTS.INV[::BASE_URL]*. 
 
 pydoctor 25.4.0
 ^^^^^^^^^^^^^^^
